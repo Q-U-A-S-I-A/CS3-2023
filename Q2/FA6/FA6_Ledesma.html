@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FA6_Ledesma</title>
+    <style>
+        #link1 {
+            padding: 5px 10px;
+            text-decoration: none;
+            border: 1px solid #ccc;
+            display: inline-block;
+            margin: 5px;
+        }
+
+            #link1:active {
+                background-color: #606060;
+                color: blueviolet;
+            }
+
+            #link1:visited {
+                background-color: #b0b0b0;
+                color: blue;
+            }
+
+            #link1:hover {
+                background-color: #a0a0a0;
+                color: orange;
+            }
+
+        #link2 {
+            padding: 5px 10px;
+            text-decoration: none;
+            border: 1px solid #ccc;
+            display: inline-block;
+            margin: 5px;
+        }
+
+            #link2:active {
+                background-color: #4800ff;
+                color: lightcoral;
+            }
+
+            #link2:visited {
+                background-color: gold;
+                color: fuchsia;
+            }
+
+            #link2:hover {
+                background-color: springgreen;
+                color: aquamarine;
+            }
+
+        #div1 {
+            padding: 10px;
+            margin: 10px;
+            height: 150px;
+            width: 200px;
+            border: 1px solid #ccc;
+        }
+
+        #div1:target {
+            color: firebrick;
+            background-color: magenta;
+        }
+
+        #div2 {
+            padding: 10px;
+            margin: 10px;
+            height: 150px;
+            width: 200px;
+            border: 1px solid #ccc;
+        }
+
+            #div2:target {
+                border: 10px solid green;
+                border-style: dotted;
+                background-color: slateblue;
+                color: chocolate;
+            }
+    </style>
+</head>
+<body>
+
+    <a id="link1" href="#div1">Link 1</a>
+    <a id="link2"href="#div2">Link 2</a>
+
+    <br>
+
+    <div id="div1">div 1 here</div>
+    <div id="div2">div 2 here</div>
+
+</body>
+</html>
